@@ -30,7 +30,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: XMPP_SERVER
-              value: 18.194.90.38
+              value: 54.254.254.82
             - name: XMPP_DOMAIN
               value: meet.jitsi
             - name: XMPP_AUTH_DOMAIN
@@ -95,7 +95,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: XMPP_SERVER
-              value: 18.194.90.38
+              value: 54.254.254.82
             - name: JICOFO_AUTH_USER
               value: focus
             - name: XMPP_DOMAIN
@@ -117,7 +117,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: XMPP_SERVER
-              value: 18.194.90.38
+              value: 54.254.254.82
             - name: DOCKER_HOST_ADDRESS
               value: <Set the address for any node in the cluster here>
             - name: XMPP_DOMAIN
