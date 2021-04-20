@@ -138,8 +138,8 @@ authentication = "internal_hashed"
 
 -- For the "sql" backend, you can uncomment *one* of the below to configure:
 --sql = { driver = "SQLite3", database = "prosody.sqlite" } -- Default. 'database' is the filename.
---sql = { driver = "MySQL", database = "prosody", username = "prosody", password = "secret", host = "18.194.90.38" }
---sql = { driver = "PostgreSQL", database = "prosody", username = "prosody", password = "secret", host = "18.194.90.38" }
+--sql = { driver = "MySQL", database = "prosody", username = "prosody", password = "secret", host = "54.254.254.82" }
+--sql = { driver = "PostgreSQL", database = "prosody", username = "prosody", password = "secret", host = "54.254.254.82" }
 
 -- Logging configuration
 -- For advanced logging see http://prosody.im/doc/logging
