@@ -16,7 +16,7 @@ http_default_host = "{{ .Env.XMPP_DOMAIN }}"
 {{ $ENABLE_LOBBY := .Env.ENABLE_LOBBY | default "0" | toBool }}
 
 {{ $ENABLE_XMPP_WEBSOCKET := .Env.ENABLE_XMPP_WEBSOCKET | default "1" | toBool }}
-{{ $PUBLIC_URL := .Env.PUBLIC_URL | default "https://54.254.254.82:8443" -}}
+{{ $PUBLIC_URL := .Env.PUBLIC_URL | default "https://18.194.90.38:8443" -}}
 
 {{ if and $ENABLE_AUTH (eq $AUTH_TYPE "jwt") .Env.JWT_ACCEPTED_ISSUERS }}
 asap_accepted_issuers = { "{{ join "\",\"" (splitList "," .Env.JWT_ACCEPTED_ISSUERS) }}" }
